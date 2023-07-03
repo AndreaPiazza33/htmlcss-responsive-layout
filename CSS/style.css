@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* Utils */
+.container{
+    width: 576px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/* debug */
+.bordered-box{
+    border: 2px dashed black;
+}
+
+
+/* Header */
+#header-container{
+    background-color:#0084fd;
+    height: 50px;
+    display: flex;
+    align-content: center;
+}
+.header-box{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 5px 20px;
+}
