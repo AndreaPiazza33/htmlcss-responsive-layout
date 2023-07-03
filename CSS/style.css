@@ -37,15 +37,17 @@
 
 /* Main */
 
-
+section:nth-child(even){
+    background-color: #9792e4;
+}
 
 /* 1st Section */
 .intro-cardbox{
     width: 100%;
     background-color: #b5ddff;
     border: 1px solid #b5ddff;
-    margin: 20px 20px;
     border-radius: 15px;
+    margin: 20px 20px;
     display: flex;
     flex-direction: column;
 }
@@ -58,3 +60,12 @@
 }
 
 /* 2nd Section */
+.strategic-cardbox{
+    width: 100%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
