@@ -69,3 +69,17 @@ section:nth-child(even){
     display: flex;
     flex-direction: column;
 }
+
+/* 3rd Section */
+.testimonial-cardbox{
+    margin: 20px auto;
+}
+.testimonial-card{
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid #9792e4;
+    border-radius: 15px;
+    background-color: #9792e4;
+    display: flex;
+    flex-direction: column;
+}
