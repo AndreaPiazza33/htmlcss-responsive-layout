@@ -15,6 +15,7 @@
     flex-wrap: wrap;
 }
 
+
 /* debug */
 .bordered-box{
     border: 2px dashed black;
@@ -36,12 +37,14 @@
 
 /* Main */
 
+
+
 /* 1st Section */
 .intro-cardbox{
     width: 100%;
     background-color: #b5ddff;
     border: 1px solid #b5ddff;
-    margin: 20px 0;
+    margin: 20px 20px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -53,3 +56,5 @@
     width: 100%;
     height: 50%;
 }
+
+/* 2nd Section */
