@@ -94,3 +94,11 @@ section:nth-child(even){
     display: flex;
     flex-direction: column;
 }
+
+/* 5th Section */
+.about-us-box{
+    width: 100%;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
