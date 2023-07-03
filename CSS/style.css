@@ -111,3 +111,11 @@ section:nth-child(even){
     flex-direction: column;
     text-align: center;
 }
+
+/* Footer */
+
+#footer-container{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
