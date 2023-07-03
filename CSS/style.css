@@ -102,3 +102,12 @@ section:nth-child(even){
     display: flex;
     flex-direction: column;
 }
+
+/* 6th Section */
+.get-started-box{
+    width: 100%;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
