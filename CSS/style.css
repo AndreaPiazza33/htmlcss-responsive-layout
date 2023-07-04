@@ -141,4 +141,13 @@ section:nth-child(even){
     .container{
         width: 100%;
     }
+
+    /*1st section*/
+    .intro-cardbox:not(:first-of-type){
+        width: calc(100% / 3 - 40px);
+    }
+    .intro-cardbox:first-of-type{
+        width: calc(2 * 100% / 3 - 40px);
+    }
+
 }
