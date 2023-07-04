@@ -115,6 +115,12 @@ section:nth-child(even){
     display: flex;
     flex-direction: column;
 }
+.about-us-imgbox{
+    width: 100%;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
 
 /* 6th Section */
 .get-started-box{
