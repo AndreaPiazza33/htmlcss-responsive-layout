@@ -150,4 +150,9 @@ section:nth-child(even){
         width: calc(2 * 100% / 3 - 40px);
     }
 
+    /*3rd section*/
+    .testimonial-cardbox{
+        width: 100%;
+        margin: 20px 20px;
+    }
 }
