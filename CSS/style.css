@@ -184,6 +184,12 @@ section:nth-child(even){
         width: 100%;
         margin: 20px 20px;
     }
+    .testimonial-card{
+        flex-wrap: wrap;
+    }
+    .testimonial-img{
+        width: 20%;
+    }
 
     /*4th section*/
     .benefit-cardbox{
