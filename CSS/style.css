@@ -75,6 +75,12 @@ section:nth-child(even){
 }
 
 /* 2nd Section */
+.strategic-container{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
 .strategic-textbox{
     margin: 20px 20px;
 }
@@ -102,6 +108,9 @@ section:nth-child(even){
     background-color: #9792e4;
     display: flex;
     flex-direction: column;
+}
+.testimonial-img{
+    margin: 0;
 }
 
 /* 4th Section */
@@ -216,7 +225,14 @@ section:nth-child(even){
     }
 
     /*2nd section*/
+    .strategic-container{
+        flex-wrap: nowrap;
+    }
+    .strategic-textbox{
+       width: 50%;
+       margin: 20px 20px;
+    }  
     .strategic-cardbox{
-        width: calc(50% - 40px);
+        width:50%;
     }
 }
