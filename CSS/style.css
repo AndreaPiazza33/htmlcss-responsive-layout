@@ -169,4 +169,12 @@ section:nth-child(even){
     .benefit-cardbox{
         width: calc(50% - 40px);
     }
+
+    /*5th section*/
+    .about-us-box{
+        width: calc(50% - 40px);
+    }
+    .about-us-imgbox{
+        width:calc(50% - 40px);
+    }
 }
