@@ -15,6 +15,10 @@
     flex-wrap: wrap;
 }
 
+.m-top-50{
+    margin-top: 50px;
+}
+
 
 /* debug */
 .bordered-box{
@@ -28,6 +32,10 @@
     height: 50px;
     display: flex;
     align-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .header-box{
     display: flex;
@@ -36,6 +44,9 @@
 }
 header nav{
     padding: 0 20px;
+}
+.desktop-option{
+    display: none;
 }
 
 /* Main */
@@ -145,7 +156,7 @@ section:nth-child(even){
 
 /* RESPONSIVE */
 
-/* Tablet */
+/* TABLET */
 @media screen and (min-width: 576px) {
     .container{
         width: 100%;
@@ -176,5 +187,15 @@ section:nth-child(even){
     }
     .about-us-imgbox{
         width:calc(50% - 40px);
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    .desktop-option{
+        display: block;
+    }
+    .small-option{
+        display: none;
     }
 }
