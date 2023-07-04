@@ -192,10 +192,26 @@ section:nth-child(even){
 
 /* DESKTOP */
 @media screen and (min-width: 992px) {
+    .container{
+        width: 60%;
+    }
+
+    /*header*/
     .desktop-option{
-        display: block;
+        display: flex;
     }
     .small-option{
         display: none;
+    }
+
+    /*1st section*/
+    .intro-cardbox:first-of-type{
+        flex-wrap: wrap;
+    }
+    .intro-textbox{
+        width: 50%;
+    }
+    .intro-img-box{
+        width: 50%;
     }
 }
