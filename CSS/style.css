@@ -214,4 +214,9 @@ section:nth-child(even){
     .intro-img-box{
         width: 50%;
     }
+
+    /*2nd section*/
+    .strategic-cardbox{
+        width: calc(50% - 40px);
+    }
 }
