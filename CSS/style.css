@@ -34,6 +34,9 @@
     align-items: center;
     color: white;
 }
+header nav{
+    padding: 0 20px;
+}
 
 /* Main */
 
@@ -53,6 +56,7 @@ section:nth-child(even){
 }
 .intro-textbox{
     margin: 15px auto;
+    text-align: center;
 }
 .intro-img-box{
     width: 100%;
@@ -60,6 +64,9 @@ section:nth-child(even){
 }
 
 /* 2nd Section */
+.strategic-textbox{
+    margin: 20px 20px;
+}
 .strategic-cardbox{
     width: 100%;
     background-color: white;
@@ -68,11 +75,13 @@ section:nth-child(even){
     margin: 20px 20px;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 /* 3rd Section */
 .testimonial-cardbox{
     margin: 20px auto;
+    text-align: center;
 }
 .testimonial-card{
     width: 100%;
@@ -85,6 +94,7 @@ section:nth-child(even){
 }
 
 /* 4th Section */
+
 .benefit-cardbox{
     width: 100%;
     margin: 20px 20px;
@@ -118,4 +128,17 @@ section:nth-child(even){
     width: 100%;
     background-color: black;
     color: white;
+}
+#footer-container div{
+    margin: 0 auto;
+}
+
+
+/* RESPONSIVE */
+
+/* Tablet */
+@media screen and (min-width: 576px) {
+    .container{
+        width: 100%;
+    }
 }
