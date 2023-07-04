@@ -241,4 +241,9 @@ section:nth-child(even){
     .strategic-cardbox{
         width:50%;
     }
+
+    /*4th section*/
+    .benefit-cardbox{
+        width: calc(100% / 3 - 40px);
+    }
 }
