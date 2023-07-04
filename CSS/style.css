@@ -94,7 +94,10 @@ section:nth-child(even){
 }
 
 /* 4th Section */
-
+#benefit-title{
+    width: 100%;
+    margin: 20px 20px;
+}
 .benefit-cardbox{
     width: 100%;
     margin: 20px 20px;
@@ -154,5 +157,10 @@ section:nth-child(even){
     .testimonial-cardbox{
         width: 100%;
         margin: 20px 20px;
+    }
+
+    /*4th section*/
+    .benefit-cardbox{
+        width: calc(50% - 40px);
     }
 }
